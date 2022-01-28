@@ -14,7 +14,7 @@ if [ "${LIBDRIVE_VERSION}" != "dev" ]; then
     fi
 
     if [ ! -z "${LIBDRIVE_REPOSITRY}" ]; then
-        REPO="pctechkid/libDrive"
+        REPO=${LIBDRIVE_REPOSITRY}
     else
         REPO="pctechkid/libDrive"
     fi
