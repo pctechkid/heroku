@@ -6,8 +6,8 @@ mkdir ./dev
 cd ./dev
 mkdir ./tmp
 cd ./tmp
-git clone "https://github.com/pctechkid/server.git" --depth 1 server
 git clone "https://github.com/pctechkid/web.git" --depth 1 web
+git clone "https://github.com/libDrive/server.git" --depth 1 server
 mkdir ./libDrive.Server
 mkdir ./libDrive.Server/build
 mkdir ./libDrive.Server/src
